@@ -1,0 +1,33 @@
+html {
+  height: 100;
+  width: 100;
+}
+
+body {
+  background-color: teal;
+}
+.parent {
+  display: flex;
+  gap: 30px;
+}
+.child {
+  border: 2px solid yellow;
+}
+.child:hover {
+  width: 50%;
+}
+button:hover {
+  background-color: wheat;
+  color: red;
+}
+h2,p{
+  text-align: center;
+  font-size: 20px;
+}
+button {
+  height: 50px;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: greenyellow;
+}
